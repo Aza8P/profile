@@ -1,0 +1,100 @@
+body {
+  background-color: rgb(245, 245, 245);
+  font-family: 'Raleway', sans-serif;
+  color: #C689C6;
+  font-size: 17px;
+  line-height: normal;
+}
+
+h1 {
+  color: #513252;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.avatar {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+header p {
+  color: rgb(69, 53, 53);
+  font-size: 17px;
+  font-weight: 400;
+  margin-bottom: 32px;
+}
+
+a {
+color: #937DC2;
+font-size: 16px;
+text-decoration: none;
+padding: 10x;
+}
+
+.btn-blue {
+  background-color: #6B72E1;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+a:hover {
+  text-decoration: underline;
+  color:blue;
+}
+
+h2 {
+  color: green;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.container {
+  width: 800px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.white_box {
+  background-color: white;
+  margin: 36px;
+  margin-bottom: 24px 0px;
+  padding: 36px;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  border-radius: 4px;
+}
+
+.white_box ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0;
+}
+
+.white_box li {
+  display: inline-block;
+  margin: 0 8px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
